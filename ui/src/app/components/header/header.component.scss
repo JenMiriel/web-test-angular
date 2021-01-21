@@ -1,0 +1,25 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #457a52;
+  color: white;
+  font-weight: 600;
+
+  .material-icons {
+    margin: 0 16px;
+  }
+
+  .nav-dropdown {
+    a {
+      color: #24292e;
+    }
+    a.nav-link {
+      color: #ffffff;
+    }
+  }
+}

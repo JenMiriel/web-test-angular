@@ -1,0 +1,16 @@
+<div class="navbar" role="banner">
+  <span class="material-icons"> eco </span>
+  <span>The SilverCheetah Bistro</span>
+  <div class="spacer"></div>
+  <div class="nav-dropdown" ngbDropdown>
+    <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown2">
+      <span class="material-icons"> reorder </span>
+    </a>
+    <div ngbDropdownMenu aria-labelledby="navbarDropdown2" class="dropdown-menu dropdown-menu-right">
+      <a ngbDropdownItem href="/" routerLink="/">Make a Reservation</a>
+      <a ngbDropdownItem href="/" routerLink="/">View Menu</a>
+      <a ngbDropdownItem href="/" routerLink="/">About Us</a>
+      <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Login</a>
+    </div>
+  </div>
+</div>
