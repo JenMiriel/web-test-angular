@@ -135,6 +135,9 @@ speed-measure-plugin*.json
 
 ../.idea/*
 ../node_modules/*
+.idea/*
+node_modules/*
+
 
 # misc
 /.sass-cache
